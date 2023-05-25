@@ -6,7 +6,7 @@
 <p align="justify">Aplicação de recordação de memórias, onde o usuário poderá adicionar à uma timeline textos, fotos e vídeos de acontecimentos marcantes da sua vida, organizados por mês e ano.</p>
 
 <h4 align="center"> 
-	🚧  Gama Shopping: 🚀 Versão 1.0 🚧
+	🚧  NLW Capsula do Tempo: 🚀 Versão 1.0 🚧
 </h4>
 
 <p align="center">
