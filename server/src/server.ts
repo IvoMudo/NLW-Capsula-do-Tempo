@@ -1,11 +1,15 @@
 import fastify from 'fastify'
+import cors from '@fastify/cors'
+import { authRoutes } from './routes/auth'
 
-const app =  fastify()
+const app = fastify()
 
-app.get('/hello',()=>{
-    return 'Hello world'
+app.register(cors, {
+  origin: true,
 })
 
-app.listen({port:3333}).then(()=>{
-    console.log('HTTP server running on port http://localhost:3333')
+app.register(authRoutes)
+
+app.listen({ port: 3333 }).then(() => {
+  console.log('HTTP server running on port http://localhost:3333')
 })
